@@ -1,0 +1,1587 @@
+{
+  "metadata": {},
+  "project": {
+    "renderer": "WebGPURenderer",
+    "shadows": true,
+    "shadowType": 1,
+    "toneMapping": 7,
+    "toneMappingExposure": 1
+  },
+  "camera": {
+    "metadata": {
+      "version": 4.7,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "object": {
+      "uuid": "2bc5fe36-3236-478f-828f-1fc25d9cda99",
+      "type": "PerspectiveCamera",
+      "name": "PongCam",
+      "layers": 1,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.984427575508482,
+        -0.1757906384836575,
+        0,
+        0,
+        0.1757906384836575,
+        0.984427575508482,
+        0,
+        0,
+        7.999748711974299,
+        27.598592787056077,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "fov": 46.6,
+      "zoom": 1,
+      "near": 0.1,
+      "far": 300,
+      "focus": 10,
+      "aspect": 1.2611050920910076,
+      "filmGauge": 35,
+      "filmOffset": 0
+    }
+  },
+  "controls": {
+    "center": [
+      0,
+      0,
+      0
+    ]
+  },
+  "scene": {
+    "metadata": {
+      "version": 4.7,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "geometries": [
+      {
+        "uuid": "e5f15405-b51d-46b5-8730-3ea93fbed44e",
+        "type": "BoxGeometry",
+        "width": 12,
+        "height": 0.5,
+        "depth": 24,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "07543d4e-dbea-414a-a57f-c1f8e94db432",
+        "type": "BoxGeometry",
+        "width": 0.3,
+        "height": 0.6,
+        "depth": 24,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "055fc461-9bd1-449c-9f91-84bf912d10d6",
+        "type": "BoxGeometry",
+        "width": 0.3,
+        "height": 0.6,
+        "depth": 24,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "b5cc1510-15bc-41af-8735-39086f3a8540",
+        "type": "BoxGeometry",
+        "width": 2.2,
+        "height": 0.6,
+        "depth": 0.4,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "6a9597ec-a138-415c-9dab-6cc1eaea2992",
+        "type": "BoxGeometry",
+        "width": 2.2,
+        "height": 0.6,
+        "depth": 0.4,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "f598a696-c7aa-4b64-95ec-c54a6b7656f2",
+        "type": "SphereGeometry",
+        "radius": 0.35,
+        "widthSegments": 24,
+        "heightSegments": 16,
+        "phiStart": 0,
+        "phiLength": 6.283185307179586,
+        "thetaStart": 0,
+        "thetaLength": 3.141592653589793
+      },
+      {
+        "uuid": "505a9ad5-41f7-428e-99a9-c7cf1412ab60",
+        "type": "BoxGeometry",
+        "width": 0.3,
+        "height": 4.2,
+        "depth": 0.3,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "f39ec57b-1dd4-4948-985a-9142c00a55e9",
+        "type": "BoxGeometry",
+        "width": 0.3,
+        "height": 4.2,
+        "depth": 0.3,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "1c17deb4-c153-4428-b81e-96f4dbade2ea",
+        "type": "BoxGeometry",
+        "width": 8.8,
+        "height": 2.8,
+        "depth": 0.3,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "bf5e6031-c69f-45d2-8256-56c209597c8d",
+        "type": "PlaneGeometry",
+        "width": 8,
+        "height": 2.4,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "ea7aff2c-583f-44bf-9fbf-781addac0fa8",
+        "type": "PlaneGeometry",
+        "width": 120,
+        "height": 120,
+        "widthSegments": 1,
+        "heightSegments": 1
+      }
+    ],
+    "materials": [
+      {
+        "uuid": "5da5f1de-65d3-41b0-9b08-a70179176a9a",
+        "type": "MeshStandardMaterial",
+        "color": 2059082,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "97daec8c-4958-4b3e-b912-f5dd5ea430b6",
+        "type": "MeshStandardMaterial",
+        "color": 14277081,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "7e814de6-1e42-4c56-9649-1eb173919569",
+        "type": "MeshStandardMaterial",
+        "color": 14277081,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "0eb797f3-92e3-448a-b309-870ebe95edb8",
+        "type": "MeshStandardMaterial",
+        "color": 3900150,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "24ce9e01-0499-49f6-8919-35ef1010d072",
+        "type": "MeshStandardMaterial",
+        "color": 15680580,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "ccecd162-3e52-437e-9ac1-6dc09951b729",
+        "type": "MeshStandardMaterial",
+        "color": 16777215,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 4473924,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "3ef2ea01-3164-4a9a-b03a-b1531a7ac2ff",
+        "type": "MeshStandardMaterial",
+        "color": 4473924,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "546f6f7a-121b-4331-9da3-651218c56d5b",
+        "type": "MeshStandardMaterial",
+        "color": 4473924,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "7c1b7fb3-cdd9-42b3-a35c-90be9c0d6124",
+        "type": "MeshStandardMaterial",
+        "color": 2236962,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "24aac7c8-5ec0-4201-9b9b-a4225b17a8f3",
+        "type": "MeshBasicMaterial",
+        "color": 16777215,
+        "map": "0a26f7ee-b70a-41a9-a381-2bc778b12942",
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "reflectivity": 1,
+        "refractionRatio": 0.98,
+        "blendColor": 0
+      },
+      {
+        "uuid": "88f0891d-08b3-4004-b5db-388b1466a0da",
+        "type": "MeshStandardMaterial",
+        "color": 2764600,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      }
+    ],
+    "textures": [
+      {
+        "uuid": "0a26f7ee-b70a-41a9-a381-2bc778b12942",
+        "name": "",
+        "image": "dcb4c9e0-1c43-49e1-8da3-b94f6952bdff",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          1,
+          1
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1001,
+          1001
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "normalized": false,
+        "colorSpace": "",
+        "minFilter": 1008,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": true,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4
+      }
+    ],
+    "images": [
+      {
+        "uuid": "dcb4c9e0-1c43-49e1-8da3-b94f6952bdff",
+        "url": {
+          "$img": "assets/img-db4979c8e78a34ee5a2b3a3a439e5b98a8e8ba2d.png",
+          "mime": "image/png"
+        }
+      }
+    ],
+    "object": {
+      "uuid": "b2b2ebf1-8a44-4eaa-b01f-7e4fd9ad4f9a",
+      "type": "Scene",
+      "name": "Scene",
+      "userData": {
+        "renderShots": []
+      },
+      "layers": 1,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "background": 1053466,
+      "children": [
+        {
+          "uuid": "58849956-fdad-4264-9abb-833af9b2fad2",
+          "type": "Group",
+          "name": "Pong_Court",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "grp:8",
+              "bbox": {
+                "center": [
+                  0,
+                  2.15,
+                  -1.125
+                ],
+                "size": [
+                  12.6,
+                  5.3,
+                  26.25
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 1752.975,
+              "role": "group",
+              "childCount": 8,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "black",
+                "base": "black",
+                "hex": "#1f6b4a"
+              },
+              "materials": [],
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "children": [
+            {
+              "uuid": "dd01a00a-9053-48b0-8a37-16957249bd2d",
+              "type": "Mesh",
+              "name": "Table",
+              "castShadow": true,
+              "receiveShadow": true,
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:13419",
+                  "bbox": {
+                    "center": [
+                      0,
+                      -0.25,
+                      0
+                    ],
+                    "size": [
+                      12,
+                      0.5,
+                      24
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "largest",
+                  "volume": 144,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Pong_Court",
+                  "adjacency": [
+                    "Rail_Left",
+                    "Rail_Right",
+                    "Player_Paddle",
+                    "Computer_Paddle"
+                  ],
+                  "color": {
+                    "name": "dark green",
+                    "base": "green",
+                    "hex": "#1f6b4a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                -0.25,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "e5f15405-b51d-46b5-8730-3ea93fbed44e",
+              "material": "5da5f1de-65d3-41b0-9b08-a70179176a9a"
+            },
+            {
+              "uuid": "6c5a7d76-7632-4b70-9862-71c467be8891",
+              "type": "Mesh",
+              "name": "Rail_Left",
+              "castShadow": true,
+              "receiveShadow": true,
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:12005",
+                  "bbox": {
+                    "center": [
+                      -6.15,
+                      0.3,
+                      0
+                    ],
+                    "size": [
+                      0.3,
+                      0.6,
+                      24
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "thin",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 4.32,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Pong_Court",
+                  "adjacency": [
+                    "Table"
+                  ],
+                  "color": {
+                    "name": "light gray",
+                    "base": "gray",
+                    "hex": "#d9d9d9"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "62e2e7c4-68bf-4421-8a13-e8e949a8663c",
+                    "mateName": "Rail_Right",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -6.15,
+                0.3,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "07543d4e-dbea-414a-a57f-c1f8e94db432",
+              "material": "97daec8c-4958-4b3e-b912-f5dd5ea430b6"
+            },
+            {
+              "uuid": "62e2e7c4-68bf-4421-8a13-e8e949a8663c",
+              "type": "Mesh",
+              "name": "Rail_Right",
+              "castShadow": true,
+              "receiveShadow": true,
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:12005",
+                  "bbox": {
+                    "center": [
+                      6.15,
+                      0.3,
+                      0
+                    ],
+                    "size": [
+                      0.3,
+                      0.6,
+                      24
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "thin",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 4.32,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Pong_Court",
+                  "adjacency": [
+                    "Table"
+                  ],
+                  "color": {
+                    "name": "light gray",
+                    "base": "gray",
+                    "hex": "#d9d9d9"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "6c5a7d76-7632-4b70-9862-71c467be8891",
+                    "mateName": "Rail_Left",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                6.15,
+                0.3,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "055fc461-9bd1-449c-9f91-84bf912d10d6",
+              "material": "7e814de6-1e42-4c56-9649-1eb173919569"
+            },
+            {
+              "uuid": "d4fba562-c94a-4908-9973-76b7f1443519",
+              "type": "Mesh",
+              "name": "Player_Paddle",
+              "castShadow": true,
+              "receiveShadow": true,
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:1158",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.3,
+                      10.5
+                    ],
+                    "size": [
+                      2.2,
+                      0.6,
+                      0.4
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "front"
+                  },
+                  "shape": "elongated",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.528,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Pong_Court",
+                  "adjacency": [
+                    "Table"
+                  ],
+                  "color": {
+                    "name": "blue",
+                    "base": "blue",
+                    "hex": "#3b82f6"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.3,
+                10.5,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "b5cc1510-15bc-41af-8735-39086f3a8540",
+              "material": "0eb797f3-92e3-448a-b309-870ebe95edb8"
+            },
+            {
+              "uuid": "0820e699-b576-4e32-9c33-489c0bcf2bc0",
+              "type": "Mesh",
+              "name": "Computer_Paddle",
+              "castShadow": true,
+              "receiveShadow": true,
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:1158",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.3,
+                      -10.5
+                    ],
+                    "size": [
+                      2.2,
+                      0.6,
+                      0.4
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "back"
+                  },
+                  "shape": "elongated",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.528,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Pong_Court",
+                  "adjacency": [
+                    "Table"
+                  ],
+                  "color": {
+                    "name": "red",
+                    "base": "red",
+                    "hex": "#ef4444"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1.8025293721934061,
+                0.3,
+                -10.5,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "6a9597ec-a138-415c-9dab-6cc1eaea2992",
+              "material": "24ce9e01-0499-49f6-8919-35ef1010d072"
+            },
+            {
+              "uuid": "e5d0500f-8334-42c2-81ed-f1bf69dea23b",
+              "type": "Mesh",
+              "name": "Ball",
+              "castShadow": true,
+              "receiveShadow": true,
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "425:350",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.35,
+                      0
+                    ],
+                    "size": [
+                      0.7,
+                      0.7,
+                      0.7
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "smallest",
+                  "volume": 0.343,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Pong_Court",
+                  "adjacency": [],
+                  "color": {
+                    "name": "white",
+                    "base": "white",
+                    "hex": "#ffffff"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1.025205451878576,
+                0.35,
+                3.746000000000005,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "f598a696-c7aa-4b64-95ec-c54a6b7656f2",
+              "material": "ccecd162-3e52-437e-9ac1-6dc09951b729"
+            },
+            {
+              "uuid": "c5df9c3a-8696-44c3-8d6b-3beea68fe4dd",
+              "type": "Group",
+              "name": "Ball_Spawn",
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.35,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "uuid": "60ea8dc8-a971-4cf6-ab0d-db00c8073034",
+              "type": "Group",
+              "name": "Marquee_Scoreboard",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "grp:4",
+                  "bbox": {
+                    "center": [
+                      0,
+                      2.4,
+                      -14.05
+                    ],
+                    "size": [
+                      8.8,
+                      4.8,
+                      0.4
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "back"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 16.896,
+                  "role": "group",
+                  "childCount": 4,
+                  "depth": 1,
+                  "parentName": "Pong_Court",
+                  "adjacency": [],
+                  "color": {
+                    "name": "black",
+                    "base": "black",
+                    "hex": "#444444"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "children": [
+                {
+                  "uuid": "f7c65334-93c9-4c3f-8e11-0f8f61fb7382",
+                  "type": "Mesh",
+                  "name": "Marquee_Post_Left",
+                  "castShadow": true,
+                  "receiveShadow": true,
+                  "userData": {
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "24:2111",
+                      "bbox": {
+                        "center": [
+                          -4.2,
+                          2.1,
+                          -14
+                        ],
+                        "size": [
+                          0.3,
+                          4.2,
+                          0.3
+                        ]
+                      },
+                      "region": {
+                        "x": "left",
+                        "y": "center",
+                        "z": "front"
+                      },
+                      "shape": "elongated",
+                      "orientation": "vertical",
+                      "sizeRank": "medium",
+                      "volume": 0.378,
+                      "role": "leaf",
+                      "childCount": 0,
+                      "depth": 2,
+                      "parentName": "Marquee_Scoreboard",
+                      "adjacency": [
+                        "Marquee_Bezel"
+                      ],
+                      "color": {
+                        "name": "black",
+                        "base": "black",
+                        "hex": "#444444"
+                      },
+                      "materials": [],
+                      "pair": {
+                        "mateUuid": "b39a79b8-4db9-42cf-9f9f-7b5dbb348622",
+                        "mateName": "Marquee_Post_Right",
+                        "axis": "x",
+                        "side": "left"
+                      }
+                    }
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    -4.2,
+                    2.1,
+                    -14,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "geometry": "505a9ad5-41f7-428e-99a9-c7cf1412ab60",
+                  "material": "3ef2ea01-3164-4a9a-b03a-b1531a7ac2ff"
+                },
+                {
+                  "uuid": "b39a79b8-4db9-42cf-9f9f-7b5dbb348622",
+                  "type": "Mesh",
+                  "name": "Marquee_Post_Right",
+                  "castShadow": true,
+                  "receiveShadow": true,
+                  "userData": {
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "24:2111",
+                      "bbox": {
+                        "center": [
+                          4.2,
+                          2.1,
+                          -14
+                        ],
+                        "size": [
+                          0.3,
+                          4.2,
+                          0.3
+                        ]
+                      },
+                      "region": {
+                        "x": "right",
+                        "y": "center",
+                        "z": "front"
+                      },
+                      "shape": "elongated",
+                      "orientation": "vertical",
+                      "sizeRank": "medium",
+                      "volume": 0.378,
+                      "role": "leaf",
+                      "childCount": 0,
+                      "depth": 2,
+                      "parentName": "Marquee_Scoreboard",
+                      "adjacency": [
+                        "Marquee_Bezel"
+                      ],
+                      "color": {
+                        "name": "black",
+                        "base": "black",
+                        "hex": "#444444"
+                      },
+                      "materials": [],
+                      "pair": {
+                        "mateUuid": "f7c65334-93c9-4c3f-8e11-0f8f61fb7382",
+                        "mateName": "Marquee_Post_Left",
+                        "axis": "x",
+                        "side": "right"
+                      }
+                    }
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    4.2,
+                    2.1,
+                    -14,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "geometry": "f39ec57b-1dd4-4948-985a-9142c00a55e9",
+                  "material": "546f6f7a-121b-4331-9da3-651218c56d5b"
+                },
+                {
+                  "uuid": "e5d3a513-cc21-4e28-a0b9-7c086c07a709",
+                  "type": "Mesh",
+                  "name": "Marquee_Bezel",
+                  "castShadow": true,
+                  "receiveShadow": true,
+                  "userData": {
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "24:4620",
+                      "bbox": {
+                        "center": [
+                          0,
+                          3.4,
+                          -14.1
+                        ],
+                        "size": [
+                          8.8,
+                          2.8,
+                          0.3
+                        ]
+                      },
+                      "region": {
+                        "x": "center",
+                        "y": "top",
+                        "z": "back"
+                      },
+                      "shape": "flat",
+                      "orientation": "horizontal",
+                      "sizeRank": "largest",
+                      "volume": 7.392,
+                      "role": "leaf",
+                      "childCount": 0,
+                      "depth": 2,
+                      "parentName": "Marquee_Scoreboard",
+                      "adjacency": [
+                        "Marquee_Post_Left",
+                        "Marquee_Post_Right"
+                      ],
+                      "color": {
+                        "name": "black",
+                        "base": "black",
+                        "hex": "#222222"
+                      },
+                      "materials": [],
+                      "pair": {
+                        "mateUuid": "6318a1a7-829e-4b13-97c7-ad31306adab7",
+                        "mateName": "Marquee_Panel",
+                        "axis": "x",
+                        "side": "right"
+                      }
+                    }
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    3.4,
+                    -14.1,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "geometry": "1c17deb4-c153-4428-b81e-96f4dbade2ea",
+                  "material": "7c1b7fb3-cdd9-42b3-a35c-90be9c0d6124"
+                },
+                {
+                  "uuid": "6318a1a7-829e-4b13-97c7-ad31306adab7",
+                  "type": "Mesh",
+                  "name": "Marquee_Panel",
+                  "castShadow": true,
+                  "receiveShadow": true,
+                  "userData": {
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "4:4176",
+                      "bbox": {
+                        "center": [
+                          0,
+                          3.4,
+                          -13.9
+                        ],
+                        "size": [
+                          8,
+                          2.4,
+                          0
+                        ]
+                      },
+                      "region": {
+                        "x": "center",
+                        "y": "top",
+                        "z": "front"
+                      },
+                      "shape": "flat",
+                      "orientation": "horizontal",
+                      "sizeRank": "smallest",
+                      "volume": 0,
+                      "role": "leaf",
+                      "childCount": 0,
+                      "depth": 2,
+                      "parentName": "Marquee_Scoreboard",
+                      "adjacency": [],
+                      "color": {
+                        "name": "dark blue",
+                        "base": "blue",
+                        "hex": "#0b0e12"
+                      },
+                      "materials": [],
+                      "pair": {
+                        "mateUuid": "e5d3a513-cc21-4e28-a0b9-7c086c07a709",
+                        "mateName": "Marquee_Bezel",
+                        "axis": "x",
+                        "side": "left"
+                      }
+                    }
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    3.4,
+                    -13.9,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "geometry": "bf5e6031-c69f-45d2-8256-56c209597c8d",
+                  "material": "24aac7c8-5ec0-4201-9b9b-a4225b17a8f3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "uuid": "8fed782a-197e-435a-bbea-a6670ef6c8ef",
+          "type": "Mesh",
+          "name": "Floor",
+          "castShadow": true,
+          "receiveShadow": true,
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "4:84853",
+              "bbox": {
+                "center": [
+                  0,
+                  -0.5,
+                  0
+                ],
+                "size": [
+                  120,
+                  0,
+                  120
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "flat",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 0,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "dark blue",
+                "base": "blue",
+                "hex": "#2a2f38"
+              },
+              "materials": [],
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            2.220446049250313e-16,
+            -1,
+            0,
+            0,
+            1,
+            2.220446049250313e-16,
+            0,
+            0,
+            -0.5,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "ea7aff2c-583f-44bf-9fbf-781addac0fa8",
+          "material": "88f0891d-08b3-4004-b5db-388b1466a0da"
+        },
+        {
+          "uuid": "40bffa49-051d-4272-8726-fa86a4004993",
+          "type": "HemisphereLight",
+          "name": "Hemisphere",
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "color": 13624575,
+          "intensity": 1.2,
+          "groundColor": 4210752
+        },
+        {
+          "uuid": "3fbf7cdd-6e0a-42b5-a66e-77b85e90af3a",
+          "type": "DirectionalLight",
+          "name": "Sun",
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            6,
+            16,
+            8,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "color": 16777215,
+          "intensity": 2.5,
+          "shadow": {
+            "camera": {
+              "uuid": "f50bdd18-c845-4e6e-8cf6-7040fc95b46e",
+              "type": "OrthographicCamera",
+              "layers": 1,
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "zoom": 1,
+              "left": -5,
+              "right": 5,
+              "top": 5,
+              "bottom": -5,
+              "near": 0.5,
+              "far": 500
+            }
+          },
+          "target": "cb6ab995-6d9e-438a-8865-af6229b72167"
+        },
+        {
+          "uuid": "2bc5fe36-3236-478f-828f-1fc25d9cda99",
+          "type": "PerspectiveCamera",
+          "name": "PongCam",
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0.984427575508482,
+            -0.1757906384836575,
+            0,
+            0,
+            0.1757906384836575,
+            0.984427575508482,
+            0,
+            0,
+            7.999748711974299,
+            27.598592787056077,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "fov": 46.6,
+          "zoom": 1,
+          "near": 0.1,
+          "far": 300,
+          "focus": 10,
+          "aspect": 1.2611050920910076,
+          "filmGauge": 35,
+          "filmOffset": 0
+        }
+      ],
+      "backgroundRotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "environmentRotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ]
+    }
+  },
+  "animations": [],
+  "scripts": {},
+  "history": {
+    "undos": [],
+    "redos": []
+  },
+  "backgroundType": "Color",
+  "environmentType": "Default"
+}
