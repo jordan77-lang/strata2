@@ -138,24 +138,12 @@ export default function init( ctx ) {
 
 	} );
 
-	// ── Camera (responsive: fit-by-distance, not fit-by-FOV) ──────────────────
-	// The FOV never changes — only the camera's DISTANCE along a fixed "behind
-	// and above the player" direction does, solved each resize so the court +
-	// marquee always fit inside whichever of (horizontal, vertical) FOV is
-	// tighter for the CURRENT aspect ratio. Stretching vertical FOV instead (an
-	// earlier version of this file did that) avoids clipping too, but on a
-	// narrow/portrait window it just pads the frame with empty sky/ground
-	// around a small court — this keeps the exact same look/angle at any
-	// aspect, dollying back only as far as the shape of the window demands.
-	// CAMERA_DIR + FIT_K are calibrated to reproduce this project's own
-	// approved reference framing (camera at (0,7,22) looking at (0,2,-6), 46.6°
-	// vertical FOV, 16:9) exactly at that aspect ratio — landscape stays
-	// identical to that reference for any aspect ≥ 1 (vertical FOV is always
-	// the tighter constraint there), and only portrait dollies back further.
+	// Elevated sideline camera, matching the authored scene. Fit by distance
+	// on resize so the court, both goals, and scoreboard remain in frame.
 	const FIXED_VFOV = 46.6; // degrees
-	const CAMERA_LOOKAT = new THREE.Vector3( 0, 2, - 6 );
-	const CAMERA_DIR = new THREE.Vector3( 0, 5, 28 ).normalize();
-	const FIT_K = 13.5; // calibrated with margin so the paddle/scoreboard never clip, incl. near-square windows
+	const CAMERA_LOOKAT = new THREE.Vector3( 0, 1, 0 );
+	const CAMERA_DIR = new THREE.Vector3( 32, 23, 4.5 ).normalize();
+	const FIT_K = 15.5; // includes both goals and a margin of grass
 
 	camera.fov = FIXED_VFOV;
 
